@@ -1,0 +1,319 @@
+
+* { box-sizing: border-box;} 
+
+body { font-family: arial;
+background-color: white;
+font-size: 120%;
+}
+
+main { max-width: 1000px;
+		min-height: 1000px;
+		background-color: white;
+		margin: auto;
+		
+	
+	
+
+}
+
+header { 
+		height: 100px;
+		background-color:  	#db7093;	
+		margin-top: 60px;
+		text-align: center;
+		border-radius: 30px ;
+		
+}
+
+header img { height: 100%;
+	
+}
+
+nav {  height: 80px;
+		max-width: 1000px;
+		background-color:   	#708090;
+		text-align: center;
+		margin-top: 20px;
+		padding: 20px;
+		
+}
+
+.navdesk a { text-decoration: none;
+color: white;
+padding: 10px;
+border: 2px solid black;
+display: inline-block;
+border-radius: 15px 0 15px 0;
+}
+
+nav img { height: 100%;
+}
+
+.navdesk a:hover { background-color: #00000;
+color:#fffffff;
+background-color: black;
+transition: 0.8s;
+
+}
+
+
+
+
+.clear{
+	clear: both;
+}
+
+h1, h2, h3 { margin: 0;
+
+}
+					
+
+.prima { width: 30%;
+		min-height: 1000px;
+		background-color: pink;
+		margin-top: 20px;
+		float: left;
+		padding: 20px;
+		text-align: center;
+
+}
+
+.prima a  { display: block;
+		text-align: right;
+		font-size: 0.8em;
+}
+
+/* |||||||||||||||| nuovo |||||||||||||||||||||| */
+
+
+.azienda1  { width: 47%;
+		min-height: 900px;
+		background-color: pink;
+		margin-top: 20px;
+		margin-right: 6%;
+		float: left;
+		padding: 20px;
+		text-align: center;
+}
+
+
+.azienda2 { width: 47%;
+		min-height: 900px;
+		background-color: pink;
+		margin-top: 20px;
+		float: left;
+		padding: 20px;
+		text-align: center;
+}
+
+
+/* |||||||||||||||| nuovo |||||||||||||||||||||| */
+
+
+
+
+.seconda { width: 30%;
+		min-height: 1000px;
+		background-color: pink;
+		margin-left: 5%;
+		float: left;
+		margin-top: 20px;
+		padding: 20px;
+}
+
+.datax { background-color: 	black;
+		width: 50px;
+		height: 50px;
+		float: left;
+		text-align: center;
+		color: white;
+}
+
+
+.titolo { 
+		background-color: pink;
+		width: 77%;
+		min-height:  50px;
+		float: right;
+		text-align: center;
+}
+
+
+.testo { background-color:  	 	#f8f8ff;
+		width: 100%;
+		min-height: 50px;
+		text-align: center;
+}
+
+.terza { width: 30%;
+		min-height: 600px;
+		background-color: pink;
+		margin-left: 5%;
+		float: left; 
+		margin-top: 20px;
+		
+}
+
+.terza img {width: 100%;
+			margin-bottom: 20px;
+			padding: 4%;
+}
+
+
+footer {
+	 height: 100px;
+	 margin-top: 20px;
+	 background-color: black;
+	 text-align: center;
+	 padding: 1%;
+	 border-radius: 30px;
+}
+
+
+footer img { height: 70%;
+		padding-right: 5%;
+		padding-left: 5%;
+
+}
+
+.nav a:hover {background-color:  	white;	
+
+	}
+	
+.tendina { position: fixed;
+			top: 0;
+			bottom:0;
+			left: 0;
+			right: 0 ;
+			background-color: rgb(0, 0, 0, 0.8);
+			display: none;
+			text-align: center;
+			padding: 1%;
+}
+
+
+.tendina img { width: 70%;
+				display: none;
+}
+
+
+.close { position: fixed;
+		width: 40px;
+		height: 40px;
+		top: 100px;
+		right: 100px;
+		display: none;
+}
+
+.close img { width: 90%;
+			
+}
+
+.cuscinettomagico { display: block;
+					height: 120px;
+	
+}
+
+
+	//////////////////////////////////////////
+	.navdesk { 
+			display: block; 
+	}
+	
+	
+	
+	.navmobile { 
+			display: none;
+			position: fixed; 
+			top: 200px;
+			left: 0;
+			right: 0;
+			margin:0;
+	}
+	
+	.header { 
+			height: 60px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin:0;
+			
+	}
+
+.menusparito {  position: fixed;
+				top: -100%;
+				width:100%;
+				background-color: #d0d0d0;
+				min-height: 200px;
+				text-align: center;
+				/* bottom: 0;  */
+		 
+}
+
+
+.menusparito a { text-decoration: none;
+				color: black;
+				font-size: 2.6em;
+				display: block;
+				padding: 20px;
+				border: 2px solid black;
+				margin: 20px; 
+				border-radius: 30px 0 30px 0 ;
+}
+
+.menusparito a:hover {background-color:  	white;	
+
+	}
+	
+	
+	/* /////////////nuovo////////////////// */
+	
+	.gallery { width: 90%;
+		min-height: 1000px;
+		background-color: pink;
+		margin-left: 5%;
+		float: left;
+		margin-top: 20px;
+		padding: 20px;
+		text-align: center;	
+		
+	}
+	
+	
+		/* /////////////nuovo////////////////// */
+
+	
+	
+	
+
+@media only screen and (max-width: 767px) {
+	
+	
+	.navdesk { 
+		display: none; 
+	}
+	
+	
+	
+	.navmobile { 
+		display: block; 
+	}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
